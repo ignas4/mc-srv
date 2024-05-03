@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Legacy Launcher Downloads</title>
+    <title>MC Servas</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -50,39 +50,40 @@
 </head>
 <body>
     <header>
-        <h1>Legacy Launcher Downloads</h1>
+        <h1>MC Servas</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="mods.html">Modai</a>
+            <a href="shaders.html">Shaderiai</a>
+            <a href="mclauncher.html">MC Launcheris</a>
+        </nav>
     </header>
+    
     <div class="container">
         <div class="main-content">
-            <h2>Download for Windows</h2>
-            <button onclick="DownloadLauncherWindows()">Download</button>
+            <h2>Modai</h2>
         </div>
-      
+    </div>
+    
+    <div class="container">
         <div class="main-content">
-           <h2>Download for Linux (Ubuntu/Debian)</h2>
-           <button onclick="DownloadLauncherDebian()">Download</button>
+            <h2>Download BSL Shaders</h2>
+            <button onclick="DownloadBSL()">Download</button>
         </div>
    
       <div class="main-content">
-         <h2>Download for Java</h2>
-         <button onclick="DownloadLauncherJava()">Download</button>
+         <h2>Download Bliss Shaders</h2>
+         <button onclick="DownloadBliss()">Download</button>
       </div>
-  
 </body>
-
   <script>
-      function DownloadLauncherWindows() {
-          window.location.href = "https://drive.usercontent.google.com/download?id=1IhJhapyarimH3tkaRUAtINi-A35VMh0e&export=download&authuser=0";
+      function DownloadBSL() {
+          window.open("https://github.com/ignas4/downloads/raw/main/BSL_v8.2.09p1.zip", "_blank");
       }
-
-      function DownloadLauncherDebian() {
-        window.location.href = "https://drive.usercontent.google.com/download?id=1T3ZL908eNL6qx8OhEEQiD1XJ3K9hFYc7&export=download&authuser=0";
-    }
-
-    function DownloadLauncherJava() {
-      window.location.href = "https://drive.usercontent.google.com/download?id=1W1qvWWgwvnYXVqB87BFnRQgTJzUlDmIH&export=download&authuser=0";
+      
+      function DownloadBliss() {
+        window.open("https://github.com/ignas4/downloads/raw/main/Bliss-Shader-DH.zip", "_blank");
     }
   </script>
   
 </html>
-
