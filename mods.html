@@ -67,12 +67,21 @@
             <h2>Modai</h2>
             <p>⚠️ Optifine su sitais modais neveikia! Cia yra naudojamas Sodium</p>
             <button onclick="DownloadMods()">Download</button>
+
+        <div class="main-content">
+            <h2>Fabric mod Loader</h2>
+            <p>Nepamirskite pasirinkti 1.20.1 versijos!</p>
+            <button onclick="DownloadFabric()">Download</button>
         </div>
    
 </body>
   <script>
       function DownloadMods() {
           window.open("https://drive.usercontent.google.com/download?id=1c_7y4hphtlYfcfqqEEJJLjvnrJpCykct&export=download&authuser=0", "_blank");
+      }
+
+      function DownloadFabric() {
+          window.open("https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.exe", "_blank");
       }
   </script>
   
